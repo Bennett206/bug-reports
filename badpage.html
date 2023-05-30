@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical Test</title>
+
+    <style>
+        body {
+            background: rgb(202, 202, 202);
+        }
+     
+        header {
+            background: blue;
+            height: 200px;
+
+        }
+
+
+        nav {
+            margin-top: 0;
+            height: 50px;
+            line-height: 50px;
+            background: yellow;
+
+        }
+
+        nav ul {
+            padding-left: 0;
+            margin-block-start: 0;
+            margin-block-end: 0;
+        }
+
+        nav li {
+            list-style-type: none;
+            float: left;
+            width: calc(100%/7);
+            text-align: center;
+            
+        }
+
+        nav a {
+            color: red;
+            display: block;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background: black;
+            color: white;
+        }
+
+        .first li:nth-child(1) a,
+        .second li:nth-child(2) a, .third li:nth-child(3) a,
+        .fourth li:nth-child(4) a, .fifth li:nth-child(5) a,
+        .sixth li:nth-child(6) a, .last li:nth-child(7) a {
+            background: black;
+            color: white;
+        }
+
+        div#wrapper {
+            background: white;
+            width: 940px;
+            margin: 20px auto;
+            overflow: hidden;
+        
+
+        .fourth {
+            width: 220px;
+            height: 300px;
+            float: left;
+            margin-right: 20px;
+        }
+
+        .fourth:last-of-type {
+            margin-right: 0;
+        }
+
+        #firstrow {
+            background: tan;
+        }
+
+        #secondrow {
+            background: rgb(176, 238, 176);
+        }
+
+        #thirdrow {
+            background: rgb(178, 178, 178);
+        }
+
+        #fourthrow {
+            background: orange;
+        }
+
+        .row {
+            clear: both;
+            margin-bottom: 20px;
+        }
+
+        .center {
+            display: block;
+            margin: 0 auto;
+        }
+
+        h3#valid {
+            text-align: center;
+        }
+        
+        footer {
+            clear: both;
+            margin-top: 30px;
+            height: 50px;
+            background: #666;
+        }
+
+    </style>
+
+</head>
+
+<body class="last">
+    <div id="wrapper">
+        <header>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="">First</a></li>
+                <li><a href="">Second</a></li>
+                <li><a href="">Third</a></li>
+                <li><a href="">Fourth</a></li>
+                <li><a href="">Fifth</a></li>
+                <li><a href="">Sixth</a></li>
+                <li><a href="">Last</a></li>
+            </ul>
+
+        </nav>
+
+        <dv class="row">
+
+            <div id="firstrow" class="fourth">
+
+            </div> <!--  end of first -->
+
+            <div id="secondrow" class="fourth">
+
+            </div><!--  end of second -->
+
+            <div id="thirdrow" class="fourth">
+
+            </div><!--  end of third -->
+
+            <div id="fourthrow" class="fourth">
+
+            </div><!--  end of fourth -->
+
+        </div><!--  end of row -->
+
+    </div>
+
+    <footer>
+    </footer>
+
+    <h3 i="valid"><a
+            href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fcompass.northseattle.edu%2F%7Ebfife%2Fit161%2Fpractical_test.html">VALID!</a>
+    </h3>
+    <img src="images/html5.png" alt="html5" class="center">
+</body>
+
+</html>
